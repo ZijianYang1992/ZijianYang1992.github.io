@@ -95,7 +95,7 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 }
 
 .navbar-default{
-	background-color:#222;
+	background-color:#3F3E73;
 	border-color:transparent
 }
 
@@ -110,13 +110,12 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 .navbar-default .navbar-collapse{border-color:rgba(255,255,255,.02)}
 
 .navbar-default .navbar-toggle{
-	background-color:#fed136;
-	border-color:#fed136
+	background-color:#c6c6f3;
 }
 
 .navbar-default .navbar-toggle .icon-bar{background-color:#fff}
 
-.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:#fed136}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:#b2b2e8}
 
 .navbar-default .nav li a{
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -126,8 +125,13 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 	color:#fff
 }
 
-.navbar-default .nav li a:hover,.navbar-default .nav li a:focus{
+.navbar-default .nav li a:hover{
 	color:#fed136;
+	outline:0
+}
+
+.navbar-default .nav li a:focus{
+	color:#FFFFFF;
 	outline:0
 }
 
@@ -139,7 +143,7 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{
 	color:#fff;
-	background-color:#fec503
+	background-color:#c6c6f3;
 }
 
 @media (min-width:768px){
@@ -754,12 +758,12 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 
 ::-moz-selection{
 	text-shadow:none;
-	background:#fed136
+	background:#c6c6f3;
 }
 
 ::selection{
 	text-shadow:none;
-	background:#fed136
+	background:#c6c6f3;
 }
 
 img::selection{background:0 0}
