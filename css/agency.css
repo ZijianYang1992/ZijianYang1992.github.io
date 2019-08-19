@@ -105,7 +105,9 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 	font-family:"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive
 }
 
-.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active{color:#fec503}
+.navbar-default .navbar-brand:hover{color:#fec503}
+
+.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active{color:#FFFFFF}
 
 .navbar-default .navbar-collapse{border-color:rgba(255,255,255,.02)}
 
