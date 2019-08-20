@@ -1115,6 +1115,7 @@ strong{
 	margin-top: 30px;
 	list-style: none;
 	text-align: center;
+	margin-left: -40px;
 }
 
 .insight_point li{
@@ -1180,6 +1181,8 @@ strong{
 .opportunity .catagory{padding-top: 10px;}
 
 .oppo_item{
+	display: -webkit-flex;
+	display: flex;
 	text-align: left;
 	font-size: 20px;
 	font-weight: bold;
