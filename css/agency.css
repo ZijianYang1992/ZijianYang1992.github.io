@@ -1120,7 +1120,7 @@ strong{
 
 .insight_point li{
 	display: inline-block;
-	width: 370px;
+	max-width: 370px;
 	min-height: 250px;
 	min-width: 292px;
 	padding: 0;
